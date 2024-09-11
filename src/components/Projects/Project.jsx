@@ -6,8 +6,7 @@ const Project = ({ from }) => {
   return (
     <section
       id="Projects"
-      className="flex flex-col items-center justify-between scale-in-top"
-    >
+      className="flex flex-col items-center justify-between scale-in-top">
       <div className="flex flex-col items-center justify-center mb-4">
         <h2 className="font-semibold font-inter text-[32px]">
           {value} Projects
@@ -18,12 +17,6 @@ const Project = ({ from }) => {
         </p>
       </div>
     </section>
-    // <div>
-    //   <div>
-    //     {" "}
-    //     <h1 className="">{value} Projects</h1>{" "}
-    //   </div>
-    // </div>
   );
 };
 

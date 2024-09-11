@@ -13,8 +13,7 @@ const Home = () => {
       <nav className="flex md:hidden  flex-row justify-end">
         <div
           onClick={() => setTheme(colorTheme)}
-          className="mr-2 cursor-pointer shadow-lg"
-        >
+          className="mr-2 cursor-pointer shadow-lg">
           <img src={contrasticon} alt="contrasticon" />
         </div>
         <div>
@@ -29,8 +28,7 @@ const Home = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } bg-primary dark:bg-fullBlack absolute top-[3rem] right-2 mx-4 border border-brightyellow my-2 min-w-[140px] rounded-xl animate__menu`}
-        >
+          } bg-primary dark:bg-fullBlack absolute top-[3rem] right-2 mx-4 border border-brightyellow my-2 min-w-[140px] rounded-xl animate__menu`}>
           <ul className="list-none flex-col justify-end items-center flex-1">
             <li className="font-inter font-normal cursor-pointer text-center text-[16px] mt-2 mb-2">
               <a href="#Home">Home</a>
@@ -67,8 +65,7 @@ const Home = () => {
           </p>
           <button
             className="bg-brightyellow w-[150px] h-[51px] rounded-[5px] flex flex-row justify-center
-      p-2 pt-4"
-          >
+      p-2 pt-4">
             <p className="font-inter font-medium text-[14px] leading-[19px]">
               HIRE ME
             </p>

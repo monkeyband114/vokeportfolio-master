@@ -28,12 +28,10 @@ const Navbar = () => {
 
   return (
     <div
-      className={`${styles.paddingY} bg-white h-[1150px] dark:bg-darken hidden md:flex sm:flex-col w-full`}
-    >
+      className={`${styles.paddingY} bg-white h-[1150px] dark:bg-darken hidden md:flex sm:flex-col w-full`}>
       <div
         onClick={() => setTheme(colorTheme)}
-        className="p-2 items-center justify-center mb-[140px] cursor-pointer"
-      >
+        className="p-2 items-center justify-center mb-[140px] cursor-pointer">
         <img
           src={contrasticon}
           alt="contrasticon"
@@ -42,11 +40,11 @@ const Navbar = () => {
       </div>
       <div className="flex flex-col justify-center items-center">
         <ul className="flex flex-col p-2 justify-between items-center h-[500px]">
-          <Item href="#home" img={homeicon} />
+          <Item href="home" img={homeicon} />
           <Item href="projects" img={codeicon} />
-          <Item href="#tools" img={toolsicon} />
-          <Item href="#blog" img={pen} />
-          <Item href="#contact" img={bookicon} />
+          <Item href="tools" img={toolsicon} />
+          <Item href="blog" img={pen} />
+          <Item href="contact" img={bookicon} />
         </ul>
       </div>
     </div>
