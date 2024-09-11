@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { arrrowright, contrasticon, menu, close } from "../../assets/icons";
 import { michael } from "../../assets";
 import useDarkmode from "../../hooks/useDarkmode";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   const [toggle, settoggle] = useState(false);
 
@@ -30,23 +30,31 @@ const Home = () => {
             toggle ? "flex" : "hidden"
           } bg-primary dark:bg-fullBlack absolute top-[3rem] right-2 mx-4 border border-brightyellow my-2 min-w-[140px] rounded-xl animate__menu`}>
           <ul className="list-none flex-col justify-end items-center flex-1">
-            <li className="font-inter font-normal cursor-pointer text-center text-[16px] mt-2 mb-2">
-              <a href="#Home">Home</a>
+            <Link to="/">
+              <li className="font-inter font-normal cursor-pointer text-center text-[16px] mt-2 mb-2">
+                <a href="">Home</a>
+              </li>
+            </Link>
+            <Link to="/projects">
+              <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
+                <a href="">Projects</a>
+              </li>
+            </Link>
+            <Link to="/services">
+              <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
+                <a href="">Tools</a>
+              </li>
+            </Link>
+            <Link to="/">
+              <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
+                <a href="">Education</a>
+              </li>
+            </Link>
+            <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
+              <a href="">Contact</a>
             </li>
             <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
-              <a href="#Projects">Projects</a>
-            </li>
-            <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
-              <a href="#Tools">Tools</a>
-            </li>
-            <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
-              <a href="#Education">Education</a>
-            </li>
-            <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
-              <a href="#Contact">Contact</a>
-            </li>
-            <li className="font-inter font-normal cursor-pointer text-center text-[16px] mb-2">
-              <a href="#Blog">Blog</a>
+              <a href="">Blog</a>
             </li>
           </ul>
         </div>
@@ -58,12 +66,13 @@ const Home = () => {
             <span className="text-brightyellow mr-2">A Full-Stack</span>
             Developer
           </h1>
-          <p className="font-inter font-normal text-slate-500  text-[14px] leading-[24px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-            volutpat feugiat placerat lobortis. Natoque rutrum semper sed
-            suspendisse nunc lectus.
+          <p className="font-inter mb-4 font-normal text-slate-500  text-[14px] leading-[24px]">
+            Hello, I’m Michael Adawaren a Proficient software Engineer and
+            software developer who has worked on over 50 innovative projects on
+            IoT Fullstack web applications and ML softwares
           </p>
-          <button
+          <a
+            href="mailto:dinstack23@gmail.com"
             className="bg-brightyellow w-[150px] h-[51px] rounded-[5px] flex flex-row justify-center
       p-2 pt-4">
             <p className="font-inter font-medium text-[14px] leading-[19px]">
@@ -74,7 +83,7 @@ const Home = () => {
               alt="arrrowright"
               className=" p-1 pt-1 pl-1"
             />
-          </button>
+          </a>
         </div>
         <div>
           <img src={michael} alt="michael" className="w-[600px] h-[390px]" />

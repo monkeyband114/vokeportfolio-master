@@ -40,8 +40,8 @@ const Navbar = () => {
       </div>
       <div className="flex flex-col justify-center items-center">
         <ul className="flex flex-col p-2 justify-between items-center h-[500px]">
-          <Item href="home" img={homeicon} />
-          <Item href="projects" img={codeicon} />
+          <Item href="/" img={homeicon} />
+          <Item href="/projects" img={codeicon} />
           <Item href="tools" img={toolsicon} />
           <Item href="blog" img={pen} />
           <Item href="contact" img={bookicon} />
