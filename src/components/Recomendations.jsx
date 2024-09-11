@@ -43,7 +43,7 @@ const Recomendations = () => {
           title="Great Quality"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...."
           pic={mike}
-          person="Chika Fula"
+          person="NeonJeff"
           job="Grapic Designer"
         />
         <Rating
