@@ -4,10 +4,12 @@ import {
   bankapp,
   ecomm,
   facesite,
-  keycard,
+  dispatch,
   mitter,
   robot,
   socichat,
+  event,
+  gamelearn,
 } from "../../assets/projects";
 
 const Category = () => {
@@ -21,10 +23,10 @@ const Category = () => {
     },
     {
       id: 2,
-      title: "Keycard System",
+      title: "Dispatch App",
       description:
-        "This is an IoT and Embedded systems Based Project using Esp32 and PHP based server",
-      image: keycard,
+        "This is an app for Connect with riders and get your packages delivered quickly and securely. Track your deliveries in real-time",
+      image: dispatch,
     },
     {
       id: 3,
@@ -48,17 +50,16 @@ const Category = () => {
     },
     {
       id: 6,
-      title: "Mecanum Omini Direction",
-      description:
-        "this is an omini directional mecanum IoT base robot built for process automantion as it is able to recaul previous movements",
-      image: robot,
+      title: "Event Manager",
+      description: "Event Management System for ticket generation",
+      image: event,
     },
     {
       id: 7,
-      title: "Campain Manager",
+      title: "LMS",
       description:
-        "An Ads campaign manager built with Django rest framework and Next js",
-      image: "https://via.placeholder.com/300",
+        "A personalized Gamified learning Management system Your personalized learning journey ",
+      image: gamelearn,
     },
   ]);
 

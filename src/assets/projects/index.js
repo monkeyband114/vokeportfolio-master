@@ -11,11 +11,17 @@ import dinstack from "./dinstack.jpg";
 import blog from "./blog.png";
 import bankapp from "./bankapp.png";
 import socichat from "./socichat.png";
+import dispatch from "./dispatch.jpg";
+import event from "./event.jpg";
+import gamelearn from "./gamelearn.jpg";
 
 export {
   step,
   mitter,
   keycard,
+  dispatch,
+  event,
+  gamelearn,
   robot,
   promanage,
   vote,
