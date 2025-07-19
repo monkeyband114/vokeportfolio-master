@@ -14,6 +14,8 @@ import socichat from "./socichat.png";
 import dispatch from "./dispatch.jpg";
 import event from "./event.jpg";
 import gamelearn from "./gamelearn.jpg";
+import lezly from "./lezly.png";
+import jeff from "./jeff.png";
 
 export {
   step,
@@ -32,4 +34,6 @@ export {
   blog,
   socichat,
   bankapp,
+  jeff,
+  lezly,
 };

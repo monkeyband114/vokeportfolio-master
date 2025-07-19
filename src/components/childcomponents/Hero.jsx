@@ -15,8 +15,7 @@ const Hero = () => {
   return (
     <div className="justify-center">
       <div
-        className={`${styles.paddingX} bg-home-white bg-white dark:bg-darken w-full  sm:h-[450px] h-[800px] object-contain`}
-      >
+        className={`${styles.paddingX} bg-home-white bg-white dark:bg-darken w-full  sm:h-[450px] h-[800px] object-contain`}>
         <Home />
       </div>
       <div className={`${layout.section}`}>
@@ -26,7 +25,9 @@ const Hero = () => {
         <Education />
         <Workhistory />
         <Contact />
-        <Footer />
+        <div className="justify-center items-center lg:ml-72 sm:ml-36">
+          <Footer />
+        </div>
       </div>
     </div>
   );

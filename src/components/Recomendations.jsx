@@ -1,6 +1,7 @@
 import React from "react";
 import { staryellow } from "../assets/icons";
 import { mike } from "../assets";
+import { jeff, lezly, step } from "../assets/projects";
 
 export const Rating = ({ title, body, pic, person, job }) => (
   <>
@@ -40,25 +41,27 @@ const Recomendations = () => {
       </div>
       <div className="grid sm:grid-cols-3 grid-cols-1  md:mb-0 mb-4 gap-4">
         <Rating
-          title="Great Quality"
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...."
-          pic={mike}
-          person="NeonJeff"
-          job="Grapic Designer"
+          title="Versatile and Technically Sharp"
+          body=" versatile full stack developer with expertise in both frontend and backend technologies, bridging the gap between design and functionality. She consistently delivers elegant, production-ready features with clean, scalable code."
+          pic={lezly} // Replace with actual image import or path
+          person="Lesley Ayemi"
+          job="Full Stack Developer"
         />
+
         <Rating
-          title="Great Quality"
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...."
-          pic={mike}
+          title="Reliable Backend Specialist"
+          body=" His ability to optimize data flow and API performance is unmatched, making him a core asset on any backend-focused team."
+          pic={jeff} // Replace with actual image import or path
+          person="Jeffrey Omamoke"
+          job="Backend Developer"
+        />
+
+        <Rating
+          title="Pixel-Perfect UI Developer"
+          body="His eye for detail and ability to turn design mockups into highly interactive interfaces is exceptional."
+          pic={step} // Replace with actual image import or path
           person="Shem Itoya"
-          job="Grapic Designer"
-        />
-        <Rating
-          title="Great Quality"
-          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet...."
-          pic={mike}
-          person="Chika Fula"
-          job="Grapic Designer"
+          job="Frontend Developer"
         />
       </div>
     </div>

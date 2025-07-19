@@ -62,7 +62,7 @@ const Home = () => {
       <div className="flex sm:flex-row flex-col-reverse justify-between">
         <div className="flex flex-col justify-between py-6">
           <h1 className="font-inter font-bold text-[36px] leading-[123.6%]">
-            I’m Michael Adawaren <br className="sm:block hidden" />
+            I’m Michael Voke Adawaren <br className="sm:block hidden" />
             <span className="text-brightyellow mr-2">A Full-Stack</span>
             Developer
           </h1>
