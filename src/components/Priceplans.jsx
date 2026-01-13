@@ -7,8 +7,7 @@ export const PriceCard = ({ name, price, like, nolik }) => (
       <div
         className={`${
           name == "Gold" ? "flex" : "hidden"
-        } flex-col bg-brightyellow w-full relative  items-center`}
-      >
+        } flex-col bg-brightyellow w-full relative  items-center`}>
         <p className="font-inter font-normal text-[15px] capitalize">
           Most Popular
         </p>
@@ -45,9 +44,8 @@ export const PriceCard = ({ name, price, like, nolik }) => (
           </ul>
         </div>
         <a
-          href="#contact"
-          className="bg-brightyellow rounded-full shadow-lg px-4 py-2"
-        >
+          href="mailto:mikeadawaren@gmail.com"
+          className="bg-brightyellow rounded-full shadow-lg px-4 py-2">
           <p className="capitalize font-bold text-[14px]">Order Now</p>
         </a>
       </div>

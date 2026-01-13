@@ -72,11 +72,24 @@ const Home = () => {
             IoT Fullstack web applications and ML softwares
           </p>
           <a
-            href="mailto:dinstack23@gmail.com"
+            href="mailto:mikeadawaren@gmail.com"
             className="bg-brightyellow w-[150px] h-[51px] rounded-[5px] flex flex-row justify-center
       p-2 pt-4">
             <p className="font-inter font-medium text-[14px] leading-[19px]">
               HIRE ME
+            </p>
+            <img
+              src={arrrowright}
+              alt="arrrowright"
+              className=" p-1 pt-1 pl-1"
+            />
+          </a>
+          <a
+            href="/projects"
+            className="bg-brightyellow w-[150px] h-[51px] rounded-[5px] flex flex-row justify-center
+      p-2 pt-4">
+            <p className="font-inter font-medium text-[14px] leading-[19px]">
+              MY PROJECTS
             </p>
             <img
               src={arrrowright}

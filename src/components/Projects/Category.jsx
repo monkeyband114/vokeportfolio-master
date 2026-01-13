@@ -20,6 +20,7 @@ const Category = () => {
       description:
         "This is  a discord like app built with Django for creating rooms and chat related functions",
       image: mitter,
+      link: "https://github.com/monkeyband114/Mitter",
     },
     {
       id: 2,
@@ -27,32 +28,37 @@ const Category = () => {
       description:
         "This is an app for Connect with riders and get your packages delivered quickly and securely. Track your deliveries in real-time",
       image: dispatch,
+      link: "http://repatcher.onrender.com",
     },
     {
       id: 3,
-      title: "Memories App",
+      title: "ADHD Cloud Based Notetaker",
       description:
-        "A social app bulit for photo sharing using React, Node js and MongoDB",
+        "A cloud-based note-taking app designed specifically for individuals with ADHD",
       image: facesite,
+      link: "https://focusflow-gq19.onrender.com/",
     },
     {
       id: 4,
-      title: "Ecommerce shop",
+      title: "Movie Recomendation",
       description:
-        "This is a multi vendor ecomerce store built with the django web framework",
+        "This is a movie recomendation app that recomend movies based on your prefrences",
       image: ecomm,
+      link: "https://movierecomed.onrender.com/",
     },
     {
       id: 5,
       title: "Bank Homepage",
       description: "This is an Extensive design For a bank Home Page",
       image: bankapp,
+      link: "https://github.com/monkeyband114/",
     },
     {
       id: 6,
       title: "Event Manager",
       description: "Event Management System for ticket generation",
       image: event,
+      link: "http://repatcher.onrender.com",
     },
     {
       id: 7,
@@ -60,6 +66,7 @@ const Category = () => {
       description:
         "A personalized Gamified learning Management system Your personalized learning journey ",
       image: gamelearn,
+      link: "https://github.com/monkeyband114/",
     },
   ]);
 
@@ -88,7 +95,7 @@ const Category = () => {
               </p>
 
               <a
-                href="https://github.com/monkeyband114"
+                href={project.link}
                 className="bg-brightyellow text-white px-4 py-2 rounded-lg hover:bg-brightyellow transition-colors duration-300 dark:bg-brightyellow dark:hover:bg-brightyellow">
                 Learn More
               </a>
